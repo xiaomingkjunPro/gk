@@ -1,0 +1,51 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.xim-body
+{
+    margin-top: 48px;
+}
+.xim-body-loaded
+{
+    border-radius: 4px;
+    padding: 6px;
+    margin: 0px 2% 0px 2%;
+    width: 95%;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.xim-footer
+{
+    padding: 8px;
+    color:#FFFFFF;
+    background-color: #000000EE;
+}
+.xim-footer-h1
+{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.xim-body-h2
+{
+    padding: 4px 0px;
+    font-size: 20px;
+}
+.xim-footer-item
+{
+    float: left;
+    display: block;
+}
+.xim-body-h1
+{
+    font-size: 32px;
+    margin: 12px 0px 4px 0px;
+}
+.xim-body-subtitle
+{
+    margin: 1px 0px;
+    font-size: 18px;
+    color: #000000AA;
+}
