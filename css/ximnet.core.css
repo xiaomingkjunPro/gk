@@ -1,0 +1,30 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.xu-title-h2-t0
+{
+    padding: 6px;
+    font-size: 32px;
+    text-align: center;
+}
+.xu-body-center
+{
+    font-size: 18px;
+    width: 80%;
+    min-height: 100vh;
+    margin: 0% 4%;
+}
+.xu-footer-load
+{
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    background-color: #000000DD;
+}
+video
+{
+    padding: 8px;
+}

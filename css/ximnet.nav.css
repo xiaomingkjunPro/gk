@@ -1,32 +1,98 @@
-.xim-nav-loaded
+.xu-navbar
 {
-    top: 0px;
-    position: fixed;
-    width: 100%;
-    margin: 0px;
-    padding: 6px;
-    overflow: hidden;
-    box-shadow: 0px 2px 1px #55555555;
+    user-select: none;
+    border-bottom: solid #CCF 1px;
+    background-color: #0000FF05;
 }
-.xim-nav-title
+.xu-navbar-title
+{
+    display: block;
+    float: left;
+    margin: 14px 8px;
+    padding: 3px 6px;
+    font-size: 24px;
+    border-right: solid #CCF 1px;
+}
+.xu-navbar-item
 {
     float: left;
     display: block;
-    font-size: 18px;
-    margin: 4px 8px;
-    padding: 0px;
-}
-.xim-nav-subtitle
-{
-    float: left;
-    font-style:lighter 100;
-    display: block;
+    margin: 13px 6px;
+    padding: 8px 8px;
     font-size: 16px;
-    margin: 5px 8px;
-    padding: 0px;
+    border-radius: 4px;
+    transition: all 0.15s;
 }
-.xim-nav-space
+.xu-navbar-item.active
+{
+    background-color: #0000FF22;
+}
+.xu-navbar-item:hover
+{
+    background-color: #0000FF11;
+}
+.xu-navbar-item:active
+{
+    background-color: #0000FF33;
+}
+.xu-navbar-inputg
+{
+    float: left;
+    display: block;
+    margin: 11px 6px;
+    padding: 2px;
+    border: solid #0000FF44 1px;
+    border-radius: 4px;
+    background-color: #0000FF15;
+}
+.xu-navbar-input
+{
+    float: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.15s;
+    padding: 8.5px 6px 3.5px 6px;
+    margin-right: 0px;
+    background-color: #0000FF00;
+}
+.xu-navbar-inputbtn
+{
+    float: left;
+    padding: 9px 8px;
+    font-size: 16px;
+    transition: all 0.15s;
+    border-right: solid #CCF 1px;
+}
+.xu-navbar-inputbtn:hover
+{
+    background-color: #0000FF11;
+}
+.xu-navbar-inputbtn:active
+{
+    background-color: #0000FF33;
+}
+
+.xu-navbar-gleft
 {
     display: block;
-    clear:both;
+    float: left;
+}
+.xu-navbar-gright
+{
+    display: block;
+    float: right;
+}
+.xu-navbar-loader
+{
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 799.9px)
+{
+    .xu-navbar-inputg
+    {
+        display: none !important;
+    }
 }
