@@ -1,52 +1,99 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
     <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"/>
+        <meta name="renderer" content="webkit"/>
+        <meta name="force-rendering" content="webkit"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <title id="html_title">示教型自动上下料雕铣机</title>
-        <link rel="stylesheet" href="./css/ximnet.htm.css"/>
-        <link rel="stylesheet" href="./css/ximnet.color.css"/>
+        <title id="html_title">XiAoM Desktop</title>
+        <link rel="stylesheet" href="./css/ximnet.core.css"/>
         <link rel="stylesheet" href="./css/ximnet.nav.css"/>
-        <script src=""></script>
+        <link rel="stylesheet" href="./css/mdui.min.css"/>
+        <script src="./js/lib/jquery.core.js"></script>
+        <script src="./css/mdui.min.js"></script>
     </head>
     <body>
-        <nav class="xim-nav-loaded xc-light-nav">
-            <div class="xim-nav-title">示教型自动上下料雕铣机</div>
-            <span class="xim-nav-subtitle">Loading...</span>
-            <div class="xim-nav-space"></div>
+        <nav class="xu-navbar">
+            <span class="xu-navbar-title" id="">武汉市工业科技学校</span>
+            <div class="xu-navbar-gleft">
+                <div class="xu-navbar-item" onclick="top.location='index.html';">首页</div>
+                <div class="xu-navbar-item active" onclick="top.location='debug.html';">文章资讯</div>
+            </div>
+            <div class="xu-navbar-gright">
+                <div class="xu-navbar-inputg">
+                    <div class="xu-navbar-inputbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <input class="xu-navbar-input" placeholder="在此输入你的疑问">
+                </div>
+            </div>
+            <div class="xu-navbar-loader"></div>
         </nav>
-        <div class="xim-body">
-            <div class="xim-body-loaded">
-                <div class="xim-body-h1">标题</div>
-                <div class="xim-body-subtitle">副标题</div>
-                <video style="width: 100%;" controls>
-                    <source src="./img/test.mp4" type="video/mp4">
-                </video>
-                <div class="xim-body-h2">简介</div>
-                <p>TEST</p>
+        
+        <div class="xu-title-h2-t0">示教型自动上下料雕铣机</div>
+        <div class="xu-body-center">
+            <video style="width: 90vw;" controls>
+                <source src="./img/示教型自动上下料雕铣机/video.mp4" type="video/mp4">
+            </video>
+            <div style="padding: 8px;font-size: 24px;">
+                示教型自动上下料雕铣机
             </div>
+            <div class="mdui-panel" mdui-panel>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目简介</div>
+                    <div class="mdui-panel-item-body">
+                        <p>通过自动上料机械臂吸取板材，放置于雕铣机上完成产品的打孔及雕铣，在产品制作过程中，武汉市工业科技学校学生充分结合学校实际，除必要标准元器件外，绝大部分零件都是运用学校现有实训设备3D打印、激光切割、钳工、机械加工等结合三维建模、机械设计、电路设计等专业知识完成产品制作。此作品已在湖北省双创大赛重荣获省二等奖、武汉市青少年科技创新大赛荣获一等奖。</p>
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目图片</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/4.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/5.webp">
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目介绍</div>
+                    <div class="mdui-panel-item-body">
+                        <h4>（一）产品设计背景</h4>
+                        <p>目前工业自动化是机电一体化专业的发展趋势，武汉市工业科技学校学生在机电实训过程中会产品一些问题，例如：“我让电机动起来的能实现什么功能？他在工程实际中又有哪些应用呢？”于是部分学生结合机电专业所学知识，针对目前学生PCB打孔难以批量化、效率低的问题，在教师的指导下完成了此示教型自动上料雕铣机的设计</p>
+
+                        <h4>（二）产品介绍：</h4>
+                        <p>作品解决了学生实训过程中PCB板手工打孔效率低、打孔精度差的问题，共有三部分构成：数控雕铣机部分、自动上下料机械臂部分、物料存储部分构成，产品运行过程中只需将PCB板材放置于物料存储部分后，通过自动上料机械臂吸取板材，放置于雕铣机上即可完成产品的打孔及雕铣，在产品制作过程中，学生充分结合学校实际，除必要标准元器件外，绝大部分零件都是用学校现有实训设备3D打印、激光切割、钳工、机械加工等结合三维建模、机械设计、电路设计等专业知识完成产品制作。不仅与学生专业密切结合，更提高了学生的工匠素养能力。此作品已在湖北省双创大赛重荣获省二等奖的荣誉。
+                        </p>
+
+                        <h4>（三）创新亮点</h4>
+                        <p>1、造价成本低，采用多连杆机械臂，将动力部分置于下方<br>
+                            2、基于学校研发校本课程，此产品可作为示教型机电一体化设备，将机、电、气、增材制造，激光切割等多学科融合，培养机电专业复合型人才；<br>
+                            3、与实际工业自动化设备加工过程接轨，可实现教学与企业需求一致；<br>
+                            4、后期可增加扩容模块，如激光切割模块、3D打印模块、多工位送料模块等，实现后期的产品创造性；<br>
+                            </p>
+                        <h4>（四）产品优势：</h4>
+                        <p>调研分析，现如今市场有其特的需求人群，（主要针对各中高职院校、创客空间及应用型本科），对此产品有需求并且具备一定的采购能力，采购后根据校本课程及此设备培养复合型人才，优势明显。因此，具备相应的可行性。
+                        </p>
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">制作过程</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/4.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/5.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/6.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/7.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/示教型自动上下料雕铣机/制作过程/8.webp">
+                    </div>
+                </div>
+            </div>
+            <div style="display: block;clear: both;"></div>
         </div>
-        <div class="xim-footer">
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">关于：</div>
-                <div>21网络班李夏鸣制作 | 指导教师:王珊珊</div>
-                <div>武汉市工业科技学校版权所有</div>
-            </div>
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">其它：</div>
-                <div><a herf="debug.html">目录</a></div>
-            </div>
-            <div class="xim-footer-item" style="float: right;">
-                <img height="128px" src="./img/SCCODE.jpg">
-            </div>
-            <div class="xim-nav-space"></div>
-            <hr>
-            <div>
-                部分源代码由XIM NETWORK STUDIO提供 | <span onclick="top.location='https://github.com/xiaomingkjun/XIMNET-UI-For-CSS';">GitHub</span>
-            </div>
+        <div class="xu-footer-load">
+            Copyright © 2022 武汉市工业科技学校 ximnet.cn All Rights Reserved.网页制作：21网络李夏鸣；指导老师：王珊珊
         </div>
     </body>
 </html>

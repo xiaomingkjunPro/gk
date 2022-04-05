@@ -1,52 +1,88 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
     <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"/>
+        <meta name="renderer" content="webkit"/>
+        <meta name="force-rendering" content="webkit"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <title id="html_title">模块化智能语音控制储物柜</title>
-        <link rel="stylesheet" href="./css/ximnet.htm.css"/>
-        <link rel="stylesheet" href="./css/ximnet.color.css"/>
+        <title id="html_title">XiAoM Desktop</title>
+        <link rel="stylesheet" href="./css/ximnet.core.css"/>
         <link rel="stylesheet" href="./css/ximnet.nav.css"/>
-        <script src=""></script>
+        <link rel="stylesheet" href="./css/mdui.min.css"/>
+        <script src="./js/lib/jquery.core.js"></script>
+        <script src="./css/mdui.min.js"></script>
     </head>
     <body>
-        <nav class="xim-nav-loaded xc-light-nav">
-            <div class="xim-nav-title">模块化智能语音控制储物柜</div>
-            <span class="xim-nav-subtitle">Loading...</span>
-            <div class="xim-nav-space"></div>
+        <nav class="xu-navbar">
+            <span class="xu-navbar-title" id="">武汉市工业科技学校</span>
+            <div class="xu-navbar-gleft">
+                <div class="xu-navbar-item" onclick="top.location='index.html';">首页</div>
+                <div class="xu-navbar-item active" onclick="top.location='debug.html';">文章资讯</div>
+            </div>
+            <div class="xu-navbar-gright">
+                <div class="xu-navbar-inputg">
+                    <div class="xu-navbar-inputbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <input class="xu-navbar-input" placeholder="在此输入你的疑问">
+                </div>
+            </div>
+            <div class="xu-navbar-loader"></div>
         </nav>
-        <div class="xim-body">
-            <div class="xim-body-loaded">
-                <div class="xim-body-h1">标题</div>
-                <div class="xim-body-subtitle">副标题</div>
-                <video style="width: 100%;" controls>
-                    <source src="./img/test.mp4" type="video/mp4">
-                </video>
-                <div class="xim-body-h2">简介</div>
-                <p>TEST</p>
+        <div class="xu-body-center">
+            <div style="padding: 8px;font-size: 32px;">
+                模块化智能语音控制储物柜
             </div>
+            <div class="mdui-panel" mdui-panel>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目简介</div>
+                    <div class="mdui-panel-item-body">
+                        <p>模块化智能语音控制储物柜可实现电子类元器件的有序分类，通过3D打印制作，当实训时需要某元器件时，说出给定的元器件名称，将与之对应的储物盒弹出，实现零件的快速定位。此作品已在湖北省双创大赛重荣获省二等奖、武汉市青少年科技创新大赛荣获二等奖。</p>
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目图片</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/4.webp">
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目介绍</div>
+                    <div class="mdui-panel-item-body">
+                        <h4>（一）创意来源：</h4>
+                        <p>武汉市工业科技学校机电一体化专业电工电子实训课居多，实训过程中需要焊接各类电子元器件，由于元器件种类及数量繁多，找寻比较困难，影响使用效率，并且在课程结束后收纳归类也是比较头疼的问题，经常呈现脏、乱、差的局面，为解决此类问题，学生创客团队设计了此模块化储物柜来实现电子类元器件的有序分类。</p>
+
+                        <h4>（二）产品介绍：</h4>
+                        <p>此作品由武汉市工业科技学校学生自主设计，并通过3D打印制作，能够根据实际需求实现储物模块的快速扩容，当实训时需要某元器件时，说出给定的元器件名称，通过语音识别模块识别反馈值，进入单片机控制模块后控制锁紧弹出机构，将与之对应的储物盒弹出，实现零件的快速定位。
+
+                        <h4>（三）产品创新点：</h4>
+                        <p>1、造价成本低，多为简单机电模块，单一模块化储物柜成本可控制在30元以内（批量开模生产后）；
+                            2、模块化设计，依据不同学校元器件使用数量决定采购模块化储物柜数量多少，可后期扩容及扩展；
+                            3、声控模式，可通过语音智能识别定位所需元器件模块，节约找寻效率；
+                            4、扩容简单，采购后通过接口连接，通过设置实现即插即用；
+                        </p>
+                        <h4>（四）产品优势：</h4>
+                        <p>通过调研分析，现如今市场无同类型产品，有其特有的市场及需求人群，（主要针对各中高职院校、创客空间及应用型本科），对此产品有需求并且具备一定的采购能力，采购后，可根据后期使用要求，增加储物模块，优势明显。因此，具备相应的可行性。</p>
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">制作过程</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/制作过程/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/制作过程/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/制作过程/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/制作过程/4.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/模块化智能语音控制储物柜/制作过程/5.webp">
+                    </div>
+                </div>
+            </div>
+            <div style="display: block;clear: both;"></div>
         </div>
-        <div class="xim-footer">
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">关于：</div>
-                <div>21网络班李夏鸣制作 | 指导教师:王珊珊</div>
-                <div>武汉市工业科技学校版权所有</div>
-            </div>
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">其它：</div>
-                <div><a herf="debug.html">目录</a></div>
-            </div>
-            <div class="xim-footer-item" style="float: right;">
-                <img height="128px" src="./img/SCCODE.jpg">
-            </div>
-            <div class="xim-nav-space"></div>
-            <hr>
-            <div>
-                部分源代码由XIM NETWORK STUDIO提供 | <span onclick="top.location='https://github.com/xiaomingkjun/XIMNET-UI-For-CSS';">GitHub</span>
-            </div>
+        <div class="xu-footer-load">
+            Copyright © 2022 武汉市工业科技学校 ximnet.cn All Rights Reserved.网页制作：21网络李夏鸣；指导老师：王珊珊
         </div>
     </body>
 </html>

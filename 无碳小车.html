@@ -1,52 +1,75 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
     <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"/>
+        <meta name="renderer" content="webkit"/>
+        <meta name="force-rendering" content="webkit"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <title id="html_title">无碳小车</title>
-        <link rel="stylesheet" href="./css/ximnet.htm.css"/>
-        <link rel="stylesheet" href="./css/ximnet.color.css"/>
+        <title id="html_title">XiAoM Desktop</title>
+        <link rel="stylesheet" href="./css/ximnet.core.css"/>
         <link rel="stylesheet" href="./css/ximnet.nav.css"/>
-        <script src=""></script>
+        <link rel="stylesheet" href="./css/mdui.min.css"/>
+        <script src="./js/lib/jquery.core.js"></script>
+        <script src="./css/mdui.min.js"></script>
     </head>
     <body>
-        <nav class="xim-nav-loaded xc-light-nav">
-            <div class="xim-nav-title">无碳小车</div>
-            <span class="xim-nav-subtitle">Loading...</span>
-            <div class="xim-nav-space"></div>
+        <nav class="xu-navbar">
+            <span class="xu-navbar-title" id="">武汉市工业科技学校</span>
+            <div class="xu-navbar-gleft">
+                <div class="xu-navbar-item" onclick="top.location='index.html';">首页</div>
+                <div class="xu-navbar-item active" onclick="top.location='debug.html';">文章资讯</div>
+            </div>
+            <div class="xu-navbar-gright">
+                <div class="xu-navbar-inputg">
+                    <div class="xu-navbar-inputbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <input class="xu-navbar-input" placeholder="在此输入你的疑问">
+                </div>
+            </div>
+            <div class="xu-navbar-loader"></div>
         </nav>
-        <div class="xim-body">
-            <div class="xim-body-loaded">
-                <div class="xim-body-h1">标题</div>
-                <div class="xim-body-subtitle">副标题</div>
-                <video style="width: 100%;" controls>
-                    <source src="./img/test.mp4" type="video/mp4">
-                </video>
-                <div class="xim-body-h2">简介</div>
-                <p>TEST</p>
+        
+        <div class="xu-title-h2-t0">无碳小车</div>
+        <div class="xu-body-center">
+            <video style="width: 90vw;" controls>
+                <source src="./img/无碳小车/video.mp4" type="video/mp4">
+            </video>
+            <div style="padding: 8px;font-size: 24px;">
+                无碳小车
             </div>
+            <div class="mdui-panel" mdui-panel>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">项目简介</div>
+                    <div class="mdui-panel-item-body">
+                        <p>通过机械中常用的双联轮机构、齿轮传动、差速器、凸轮、滑块等机构，实现将重力势能转化为绕8字桩的固定轨迹运动，是机械加工及机械设计能力的极致综合体现。此作品由武汉市工业科技学校学生自主设计并通过数控车床、数控铣床、钳工加工等加工制作完成，其中凸轮参数设计、齿轮传动比计算为重点，产品加工中如何防止薄壁类零件的变形、零件加工工艺安排及夹具设计为难点，是该校学生机械加工能力的综合体现。</p>
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">附件：图片1</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/4.webp">
+                    </div>
+                </div>
+                <div class="mdui-panel-item mdui-panel-item-open">
+                    <div class="mdui-panel-item-header">制作过程</div>
+                    <div class="mdui-panel-item-body">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/1.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/2.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/3.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/4.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/5.webp">
+                        <img style="width: 100%; max-width: 500px;" src="./img/无碳小车/制作过程/6.webp">
+                    </div>
+                </div>
+            </div>
+            <div style="display: block;clear: both;"></div>
         </div>
-        <div class="xim-footer">
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">关于：</div>
-                <div>21网络班李夏鸣制作 | 指导教师:王珊珊</div>
-                <div>武汉市工业科技学校版权所有</div>
-            </div>
-            <div class="xim-footer-item">
-                <div class="xim-footer-h1">其它：</div>
-                <div><a herf="debug.html">目录</a></div>
-            </div>
-            <div class="xim-footer-item" style="float: right;">
-                <img height="128px" src="./img/SCCODE.jpg">
-            </div>
-            <div class="xim-nav-space"></div>
-            <hr>
-            <div>
-                部分源代码由XIM NETWORK STUDIO提供 | <span onclick="top.location='https://github.com/xiaomingkjun/XIMNET-UI-For-CSS';">GitHub</span>
-            </div>
+        <div class="xu-footer-load">
+            Copyright © 2022 武汉市工业科技学校 ximnet.cn All Rights Reserved.网页制作：21网络李夏鸣；指导老师：王珊珊
         </div>
     </body>
 </html>
